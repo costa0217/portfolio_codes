@@ -1,0 +1,670 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\Headers">
+      <UniqueIdentifier>{3e9d8f7a-5641-49dc-b9a6-4168b5b1b007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="01 MainGame">
+      <UniqueIdentifier>{29f8d15e-9e97-46db-be50-c70ee77b7be5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 Scene">
+      <UniqueIdentifier>{af091091-e563-43e0-ad17-55571e186b11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 Scene\2-1 Logo">
+      <UniqueIdentifier>{00bcfdf5-1252-4fdc-a8b7-c000e3dcf132}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 Scene\2-2 MyMenu">
+      <UniqueIdentifier>{182fb1ca-7abe-414f-aee8-9562a24a5cdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 Scene\2-3 Chapter">
+      <UniqueIdentifier>{7cdc052e-ab7e-4dff-9092-791513fd15c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 Scene\2-3 Chapter\01 Stage1">
+      <UniqueIdentifier>{6a1f6dc9-57cb-453e-99fb-0359da081008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 Scene\2-3 Chapter\02 Stage2">
+      <UniqueIdentifier>{865b8b87-d508-4db3-803f-20143d603a96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 Scene\2-3 Chapter\03 Stage3">
+      <UniqueIdentifier>{d1856f48-9590-4baf-9c18-ee45d640cc67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 Scene\2-3 Chapter\04 Stage4">
+      <UniqueIdentifier>{8e7c9286-39b1-40b7-9d5a-bff351e2b841}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 Scene\2-3 Chapter\05 Stage5">
+      <UniqueIdentifier>{5cc95091-1dca-47b6-8411-3651668cec38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 Scene\2-3 Chapter\06 Stage6">
+      <UniqueIdentifier>{cb0f9a33-bcfc-4bf8-adde-83e654d87523}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 Scene\2-3 Chapter\07 Stage7">
+      <UniqueIdentifier>{7f4c59a3-25f0-4b54-9b5e-418d84707a96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 Scene\2-3 Chapter\08 BossStage">
+      <UniqueIdentifier>{6ce2fc2e-e9ca-48b9-bc86-01a89af67e70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 Scene\2-4 Ending">
+      <UniqueIdentifier>{98f7af84-996d-4348-992c-de152c2560cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03 Design">
+      <UniqueIdentifier>{b9f8e492-c24a-4043-aa1c-423e721faa96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03 Design\3-1 ObjMgr">
+      <UniqueIdentifier>{3bb4a518-5d97-48d6-88c9-41b0b9cc7b9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03 Design\3-2 SceneMgr">
+      <UniqueIdentifier>{0d42ba4e-cb4c-4896-884b-cd70866fe1f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03 Design\3-3 ObjFactory">
+      <UniqueIdentifier>{a48a06fa-a141-4d33-b829-05c7cdf744ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03 Design\3-4 RenderMgr">
+      <UniqueIdentifier>{e7673efb-a275-4a0c-916d-8559c9589bba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03 Design\3-6 BitBmp">
+      <UniqueIdentifier>{883e5569-0281-438b-bca3-2766fa4a1621}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03 Design\3-7 Device">
+      <UniqueIdentifier>{beeddc04-76eb-4405-844a-c8af59c3d119}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03 Design\3-5 KeyMgr">
+      <UniqueIdentifier>{7b715ab0-c8cd-4e5f-98e5-8c60a49542ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Obj">
+      <UniqueIdentifier>{bb5dca16-9519-4ab9-a084-edcf656f3cfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Obj\4-1 UI">
+      <UniqueIdentifier>{1e2ef60e-63fb-42ff-ba1c-94a91285b541}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Obj\4-1 UI\01 MiniMap">
+      <UniqueIdentifier>{e4a0a18b-94aa-4165-b678-3593da86b338}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Obj\4-1 UI\02 Hart">
+      <UniqueIdentifier>{e8c47c46-fb9a-4219-a549-1cb2bf60f8f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Obj\4-1 UI\03 Count">
+      <UniqueIdentifier>{541a3ee5-b070-4a88-8da2-f87474e0d023}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Obj\4-1 UI\04 ArrowUI">
+      <UniqueIdentifier>{08cd924b-e069-47c6-836e-8444c216817a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Obj\4-1 UI\05 Inven">
+      <UniqueIdentifier>{591fffc5-2ba7-44ec-a707-250ea657b7d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Obj\4-1 UI\00 alpha">
+      <UniqueIdentifier>{037609f5-9068-41ef-916e-8d1c75fafd71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Obj\4-2 BackGround">
+      <UniqueIdentifier>{acddb1b1-bd8f-4a4b-b318-4cf25925e649}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Obj\4-3 Player">
+      <UniqueIdentifier>{5b01f1b6-dc4e-413a-ab34-8527a2c27339}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Obj\4-3 Player\01 Isaac">
+      <UniqueIdentifier>{a900eaef-542a-48fe-a5bf-d7d69a97b880}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Obj\4-3 Player\02 Baby">
+      <UniqueIdentifier>{ef08f9b5-72c1-41af-b394-45b83b8cd38d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Obj\4-4 Monster">
+      <UniqueIdentifier>{8c7301a7-85ec-4f37-80d5-cda4e425c035}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Obj\4-4 Monster\01 Fly">
+      <UniqueIdentifier>{f2c6f5d5-d0fe-4ee1-9b97-871c541fd077}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Obj\4-4 Monster\02 Gaper">
+      <UniqueIdentifier>{af747409-023b-40ba-938f-cb89ce624709}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Obj\4-4 Monster\03 Meat">
+      <UniqueIdentifier>{fbe79237-be82-4cf5-b9f5-7ff2d9321845}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Obj\4-4 Monster\04 Hopper">
+      <UniqueIdentifier>{5ba5195d-6807-40f8-ad70-09a56715a7a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Obj\4-4 Monster\05 Mulgun">
+      <UniqueIdentifier>{3ce93a84-e1a8-417f-87eb-b22a439f5c85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Obj\4-4 Monster\06 MiniBoss">
+      <UniqueIdentifier>{cd138b33-dc22-4ee6-8966-986542a28d9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Obj\4-4 Monster\06 MiniBoss\MiniBoss2">
+      <UniqueIdentifier>{e1b5adb6-b55a-485a-9cfe-f5857171978f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Obj\4-4 Monster\06 MiniBoss\MiniBoss4">
+      <UniqueIdentifier>{02444031-a8a8-4b73-b404-01635610e18e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Obj\4-4 Monster\07 Boss">
+      <UniqueIdentifier>{75c1fac6-0a3a-4628-953e-ddd18d1d6432}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Obj\4-5 Item">
+      <UniqueIdentifier>{b13f8505-13da-4b99-81d3-29f1ca9a8073}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Obj\4-5 Item\arrow">
+      <UniqueIdentifier>{9318e6f1-4836-40ab-8e0b-178c45c306ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Obj\4-5 Item\active">
+      <UniqueIdentifier>{b076161b-73bd-489c-ad78-d0537bcec26d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Obj\4-6 Bullet">
+      <UniqueIdentifier>{3072a24f-b321-49f6-848e-b92ed8945e13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Obj\4-6 Bullet\01 PlayerBullet">
+      <UniqueIdentifier>{a80b6dfc-62f1-4f61-b9b4-a37d46e086d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Obj\4-6 Bullet\05 MonBullet">
+      <UniqueIdentifier>{f2e11feb-dc26-4ff8-9f62-450fb906b2e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Obj\4-6 Bullet\00 Bomb">
+      <UniqueIdentifier>{3b142cf0-0122-45c5-9f0a-fe14c5be6c65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Obj\4-6 Bullet\06 BossSkill">
+      <UniqueIdentifier>{cf558a2d-eabc-4c70-9e2e-46dfa810296c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Obj\4-6 Bullet\02 PlayerKnife">
+      <UniqueIdentifier>{68db18c0-21c0-45a4-b657-56151f23aa94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Obj\4-6 Bullet\03 PlayerSnake">
+      <UniqueIdentifier>{eb7b980b-fb1b-4d35-981c-f2e2b93284a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Obj\4-6 Bullet\04 PlayerBig">
+      <UniqueIdentifier>{5193b7dc-4bc9-40e5-9dcd-b348f1ec16e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Obj\4-6 Bullet\07 SkillAll">
+      <UniqueIdentifier>{e630fa63-950a-446f-890a-8cf66c87e728}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Obj\4-6 Bullet\08 SkillMeteo">
+      <UniqueIdentifier>{90829491-7901-42a7-9e30-25a282747174}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Obj\4-6 Bullet\09 SkillLemon">
+      <UniqueIdentifier>{636cf818-fd38-4129-80c4-07392ee7fd03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Obj\4-7 Block">
+      <UniqueIdentifier>{93f4cde9-f97d-4179-aca7-b9b0cdd03f7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Obj\4-7 Block\01 Road">
+      <UniqueIdentifier>{5dc942b2-ce33-4b73-8df0-2c351c12af3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Obj\4-7 Block\02 None">
+      <UniqueIdentifier>{443800e7-96c0-493b-8614-74b6494e989c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Obj\4-7 Block\03 Stone">
+      <UniqueIdentifier>{f7750424-dce7-47c6-a0e5-2e8915e647d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Obj\4-7 Block\04 Fire">
+      <UniqueIdentifier>{29d1cb85-4091-4c58-92e6-f40b13737284}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Obj\4-7 Block\05 Poop">
+      <UniqueIdentifier>{7f046c0e-4bfb-48ee-8fc6-86a26eb08c2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Obj\4-7 Block\06 Door">
+      <UniqueIdentifier>{d9fbbda6-9121-476d-a381-7bb6940d3fd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Obj\4-8 Blood">
+      <UniqueIdentifier>{480c1afe-f93f-4e56-841b-f7d76c921c77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Obj\4-9 Familyer">
+      <UniqueIdentifier>{410f0e6e-3a4a-4d16-8753-288584c74297}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Obj\4-9 Familyer\01 FamFly">
+      <UniqueIdentifier>{db300822-fc88-46f1-a646-25f61c595ba5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Obj\4-9 Familyer\02 FamBaby">
+      <UniqueIdentifier>{7a0a9315-c1c9-461f-a691-7123074a4aa6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="IsaacProject.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>01 MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>02 Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Logo.cpp">
+      <Filter>02 Scene\2-1 Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="MyMenu.cpp">
+      <Filter>02 Scene\2-2 MyMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter.cpp">
+      <Filter>02 Scene\2-3 Chapter</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage1.cpp">
+      <Filter>02 Scene\2-3 Chapter\01 Stage1</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage2.cpp">
+      <Filter>02 Scene\2-3 Chapter\02 Stage2</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage3.cpp">
+      <Filter>02 Scene\2-3 Chapter\03 Stage3</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage4.cpp">
+      <Filter>02 Scene\2-3 Chapter\04 Stage4</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage5.cpp">
+      <Filter>02 Scene\2-3 Chapter\05 Stage5</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage6.cpp">
+      <Filter>02 Scene\2-3 Chapter\06 Stage6</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage7.cpp">
+      <Filter>02 Scene\2-3 Chapter\07 Stage7</Filter>
+    </ClCompile>
+    <ClCompile Include="BossStage.cpp">
+      <Filter>02 Scene\2-3 Chapter\08 BossStage</Filter>
+    </ClCompile>
+    <ClCompile Include="Ending.cpp">
+      <Filter>02 Scene\2-4 Ending</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjMgr.cpp">
+      <Filter>03 Design\3-1 ObjMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>03 Design\3-2 SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderMgr.cpp">
+      <Filter>03 Design\3-4 RenderMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="BitBmp.cpp">
+      <Filter>03 Design\3-6 BitBmp</Filter>
+    </ClCompile>
+    <ClCompile Include="Device.cpp">
+      <Filter>03 Design\3-7 Device</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>03 Design\3-5 KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>04 Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>04 Obj\4-1 UI</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniMap.cpp">
+      <Filter>04 Obj\4-1 UI\01 MiniMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Hart.cpp">
+      <Filter>04 Obj\4-1 UI\02 Hart</Filter>
+    </ClCompile>
+    <ClCompile Include="COunt.cpp">
+      <Filter>04 Obj\4-1 UI\03 Count</Filter>
+    </ClCompile>
+    <ClCompile Include="Alpha.cpp">
+      <Filter>04 Obj\4-1 UI\00 alpha</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGround.cpp">
+      <Filter>04 Obj\4-2 BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>04 Obj\4-3 Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Isaac.cpp">
+      <Filter>04 Obj\4-3 Player\01 Isaac</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>04 Obj\4-4 Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Fly.cpp">
+      <Filter>04 Obj\4-4 Monster\01 Fly</Filter>
+    </ClCompile>
+    <ClCompile Include="Gaper.cpp">
+      <Filter>04 Obj\4-4 Monster\02 Gaper</Filter>
+    </ClCompile>
+    <ClCompile Include="Meat.cpp">
+      <Filter>04 Obj\4-4 Monster\03 Meat</Filter>
+    </ClCompile>
+    <ClCompile Include="Hopper.cpp">
+      <Filter>04 Obj\4-4 Monster\04 Hopper</Filter>
+    </ClCompile>
+    <ClCompile Include="Mulgun.cpp">
+      <Filter>04 Obj\4-4 Monster\05 Mulgun</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniBoss.cpp">
+      <Filter>04 Obj\4-4 Monster\06 MiniBoss</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniBoss2.cpp">
+      <Filter>04 Obj\4-4 Monster\06 MiniBoss\MiniBoss2</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniBoss4.cpp">
+      <Filter>04 Obj\4-4 Monster\06 MiniBoss\MiniBoss4</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>04 Obj\4-4 Monster\07 Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>04 Obj\4-5 Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Arrow.cpp">
+      <Filter>04 Obj\4-5 Item\arrow</Filter>
+    </ClCompile>
+    <ClCompile Include="Active.cpp">
+      <Filter>04 Obj\4-5 Item\active</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>04 Obj\4-6 Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerBullet.cpp">
+      <Filter>04 Obj\4-6 Bullet\01 PlayerBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="MonBullet.cpp">
+      <Filter>04 Obj\4-6 Bullet\05 MonBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Bomb.cpp">
+      <Filter>04 Obj\4-6 Bullet\00 Bomb</Filter>
+    </ClCompile>
+    <ClCompile Include="BossSkill.cpp">
+      <Filter>04 Obj\4-6 Bullet\06 BossSkill</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerKnife.cpp">
+      <Filter>04 Obj\4-6 Bullet\02 PlayerKnife</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerSnake.cpp">
+      <Filter>04 Obj\4-6 Bullet\03 PlayerSnake</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerBig.cpp">
+      <Filter>04 Obj\4-6 Bullet\04 PlayerBig</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillAll.cpp">
+      <Filter>04 Obj\4-6 Bullet\07 SkillAll</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillMeteo.cpp">
+      <Filter>04 Obj\4-6 Bullet\08 SkillMeteo</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillLemon.cpp">
+      <Filter>04 Obj\4-6 Bullet\09 SkillLemon</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>04 Obj\4-7 Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Road.cpp">
+      <Filter>04 Obj\4-7 Block\01 Road</Filter>
+    </ClCompile>
+    <ClCompile Include="None.cpp">
+      <Filter>04 Obj\4-7 Block\02 None</Filter>
+    </ClCompile>
+    <ClCompile Include="Stone.cpp">
+      <Filter>04 Obj\4-7 Block\03 Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="Fire.cpp">
+      <Filter>04 Obj\4-7 Block\04 Fire</Filter>
+    </ClCompile>
+    <ClCompile Include="Poop.cpp">
+      <Filter>04 Obj\4-7 Block\05 Poop</Filter>
+    </ClCompile>
+    <ClCompile Include="Door.cpp">
+      <Filter>04 Obj\4-7 Block\06 Door</Filter>
+    </ClCompile>
+    <ClCompile Include="Blood.cpp">
+      <Filter>04 Obj\4-8 Blood</Filter>
+    </ClCompile>
+    <ClCompile Include="Familyer.cpp">
+      <Filter>04 Obj\4-9 Familyer</Filter>
+    </ClCompile>
+    <ClCompile Include="FamFly.cpp">
+      <Filter>04 Obj\4-9 Familyer\01 FamFly</Filter>
+    </ClCompile>
+    <ClCompile Include="FamBaby.cpp">
+      <Filter>04 Obj\4-9 Familyer\02 FamBaby</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IsaacProject.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>헤더 파일\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="enum.h">
+      <Filter>헤더 파일\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="function.h">
+      <Filter>헤더 파일\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Include.h">
+      <Filter>헤더 파일\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.h">
+      <Filter>헤더 파일\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="value.h">
+      <Filter>헤더 파일\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>01 MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>02 Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Logo.h">
+      <Filter>02 Scene\2-1 Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMenu.h">
+      <Filter>02 Scene\2-2 MyMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapter.h">
+      <Filter>02 Scene\2-3 Chapter</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage1.h">
+      <Filter>02 Scene\2-3 Chapter\01 Stage1</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage2.h">
+      <Filter>02 Scene\2-3 Chapter\02 Stage2</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage3.h">
+      <Filter>02 Scene\2-3 Chapter\03 Stage3</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage4.h">
+      <Filter>02 Scene\2-3 Chapter\04 Stage4</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage5.h">
+      <Filter>02 Scene\2-3 Chapter\05 Stage5</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage6.h">
+      <Filter>02 Scene\2-3 Chapter\06 Stage6</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage7.h">
+      <Filter>02 Scene\2-3 Chapter\07 Stage7</Filter>
+    </ClInclude>
+    <ClInclude Include="BossStage.h">
+      <Filter>02 Scene\2-3 Chapter\08 BossStage</Filter>
+    </ClInclude>
+    <ClInclude Include="Ending.h">
+      <Filter>02 Scene\2-4 Ending</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjMgr.h">
+      <Filter>03 Design\3-1 ObjMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>03 Design\3-2 SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjFactory.h">
+      <Filter>03 Design\3-3 ObjFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderMgr.h">
+      <Filter>03 Design\3-4 RenderMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="BitBmp.h">
+      <Filter>03 Design\3-6 BitBmp</Filter>
+    </ClInclude>
+    <ClInclude Include="Device.h">
+      <Filter>03 Design\3-7 Device</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>03 Design\3-5 KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>04 Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>04 Obj\4-1 UI</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniMap.h">
+      <Filter>04 Obj\4-1 UI\01 MiniMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Hart.h">
+      <Filter>04 Obj\4-1 UI\02 Hart</Filter>
+    </ClInclude>
+    <ClInclude Include="COunt.h">
+      <Filter>04 Obj\4-1 UI\03 Count</Filter>
+    </ClInclude>
+    <ClInclude Include="Alpha.h">
+      <Filter>04 Obj\4-1 UI\00 alpha</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGround.h">
+      <Filter>04 Obj\4-2 BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>04 Obj\4-3 Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Isaac.h">
+      <Filter>04 Obj\4-3 Player\01 Isaac</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>04 Obj\4-4 Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Fly.h">
+      <Filter>04 Obj\4-4 Monster\01 Fly</Filter>
+    </ClInclude>
+    <ClInclude Include="Gaper.h">
+      <Filter>04 Obj\4-4 Monster\02 Gaper</Filter>
+    </ClInclude>
+    <ClInclude Include="Meat.h">
+      <Filter>04 Obj\4-4 Monster\03 Meat</Filter>
+    </ClInclude>
+    <ClInclude Include="Hopper.h">
+      <Filter>04 Obj\4-4 Monster\04 Hopper</Filter>
+    </ClInclude>
+    <ClInclude Include="Mulgun.h">
+      <Filter>04 Obj\4-4 Monster\05 Mulgun</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniBoss.h">
+      <Filter>04 Obj\4-4 Monster\06 MiniBoss</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniBoss2.h">
+      <Filter>04 Obj\4-4 Monster\06 MiniBoss\MiniBoss2</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniBoss4.h">
+      <Filter>04 Obj\4-4 Monster\06 MiniBoss\MiniBoss4</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>04 Obj\4-4 Monster\07 Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>04 Obj\4-5 Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Arrow.h">
+      <Filter>04 Obj\4-5 Item\arrow</Filter>
+    </ClInclude>
+    <ClInclude Include="Active.h">
+      <Filter>04 Obj\4-5 Item\active</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>04 Obj\4-6 Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBullet.h">
+      <Filter>04 Obj\4-6 Bullet\01 PlayerBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="MonBullet.h">
+      <Filter>04 Obj\4-6 Bullet\05 MonBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Bomb.h">
+      <Filter>04 Obj\4-6 Bullet\00 Bomb</Filter>
+    </ClInclude>
+    <ClInclude Include="BossSkill.h">
+      <Filter>04 Obj\4-6 Bullet\06 BossSkill</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerKnife.h">
+      <Filter>04 Obj\4-6 Bullet\02 PlayerKnife</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerSnake.h">
+      <Filter>04 Obj\4-6 Bullet\03 PlayerSnake</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBig.h">
+      <Filter>04 Obj\4-6 Bullet\04 PlayerBig</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillAll.h">
+      <Filter>04 Obj\4-6 Bullet\07 SkillAll</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillMeteo.h">
+      <Filter>04 Obj\4-6 Bullet\08 SkillMeteo</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillLemon.h">
+      <Filter>04 Obj\4-6 Bullet\09 SkillLemon</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>04 Obj\4-7 Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Road.h">
+      <Filter>04 Obj\4-7 Block\01 Road</Filter>
+    </ClInclude>
+    <ClInclude Include="None.h">
+      <Filter>04 Obj\4-7 Block\02 None</Filter>
+    </ClInclude>
+    <ClInclude Include="Stone.h">
+      <Filter>04 Obj\4-7 Block\03 Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="Fire.h">
+      <Filter>04 Obj\4-7 Block\04 Fire</Filter>
+    </ClInclude>
+    <ClInclude Include="Poop.h">
+      <Filter>04 Obj\4-7 Block\05 Poop</Filter>
+    </ClInclude>
+    <ClInclude Include="Door.h">
+      <Filter>04 Obj\4-7 Block\06 Door</Filter>
+    </ClInclude>
+    <ClInclude Include="Blood.h">
+      <Filter>04 Obj\4-8 Blood</Filter>
+    </ClInclude>
+    <ClInclude Include="Familyer.h">
+      <Filter>04 Obj\4-9 Familyer</Filter>
+    </ClInclude>
+    <ClInclude Include="FamFly.h">
+      <Filter>04 Obj\4-9 Familyer\01 FamFly</Filter>
+    </ClInclude>
+    <ClInclude Include="FamBaby.h">
+      <Filter>04 Obj\4-9 Familyer\02 FamBaby</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="IsaacProject.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="IsaacProject.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

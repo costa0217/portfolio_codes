@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9B3190DB-CBAC-4293-ABF9-B386F8EA94EE}</ProjectGuid>
+    <RootNamespace>IsaacProject</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>14.0.24730.2</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Active.cpp" />
+    <ClCompile Include="Alpha.cpp" />
+    <ClCompile Include="Arrow.cpp" />
+    <ClCompile Include="BackGround.cpp" />
+    <ClCompile Include="BitBmp.cpp" />
+    <ClCompile Include="Block.cpp" />
+    <ClCompile Include="Blood.cpp" />
+    <ClCompile Include="Bomb.cpp" />
+    <ClCompile Include="Boss.cpp" />
+    <ClCompile Include="BossSkill.cpp" />
+    <ClCompile Include="BossStage.cpp" />
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="Chapter.cpp" />
+    <ClCompile Include="COunt.cpp" />
+    <ClCompile Include="Device.cpp" />
+    <ClCompile Include="Door.cpp" />
+    <ClCompile Include="Ending.cpp" />
+    <ClCompile Include="FamBaby.cpp" />
+    <ClCompile Include="FamFly.cpp" />
+    <ClCompile Include="Familyer.cpp" />
+    <ClCompile Include="Fire.cpp" />
+    <ClCompile Include="Fly.cpp" />
+    <ClCompile Include="Gaper.cpp" />
+    <ClCompile Include="Hart.cpp" />
+    <ClCompile Include="Hopper.cpp" />
+    <ClCompile Include="Isaac.cpp" />
+    <ClCompile Include="IsaacProject.cpp" />
+    <ClCompile Include="Item.cpp" />
+    <ClCompile Include="KeyMgr.cpp" />
+    <ClCompile Include="Logo.cpp" />
+    <ClCompile Include="MainGame.cpp" />
+    <ClCompile Include="Meat.cpp" />
+    <ClCompile Include="MiniBoss.cpp" />
+    <ClCompile Include="MiniBoss2.cpp" />
+    <ClCompile Include="MiniBoss4.cpp" />
+    <ClCompile Include="MiniMap.cpp" />
+    <ClCompile Include="MonBullet.cpp" />
+    <ClCompile Include="Monster.cpp" />
+    <ClCompile Include="Mulgun.cpp" />
+    <ClCompile Include="MyMenu.cpp" />
+    <ClCompile Include="None.cpp" />
+    <ClCompile Include="Obj.cpp" />
+    <ClCompile Include="ObjMgr.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PlayerBig.cpp" />
+    <ClCompile Include="PlayerBullet.cpp" />
+    <ClCompile Include="PlayerKnife.cpp" />
+    <ClCompile Include="PlayerSnake.cpp" />
+    <ClCompile Include="Poop.cpp" />
+    <ClCompile Include="RenderMgr.cpp" />
+    <ClCompile Include="Road.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="SceneMgr.cpp" />
+    <ClCompile Include="SkillAll.cpp" />
+    <ClCompile Include="SkillLemon.cpp" />
+    <ClCompile Include="SkillMeteo.cpp" />
+    <ClCompile Include="Stage1.cpp" />
+    <ClCompile Include="Stage2.cpp" />
+    <ClCompile Include="Stage3.cpp" />
+    <ClCompile Include="Stage4.cpp" />
+    <ClCompile Include="Stage5.cpp" />
+    <ClCompile Include="Stage6.cpp" />
+    <ClCompile Include="Stage7.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Stone.cpp" />
+    <ClCompile Include="UI.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Active.h" />
+    <ClInclude Include="Alpha.h" />
+    <ClInclude Include="Arrow.h" />
+    <ClInclude Include="BackGround.h" />
+    <ClInclude Include="BitBmp.h" />
+    <ClInclude Include="Block.h" />
+    <ClInclude Include="Blood.h" />
+    <ClInclude Include="Bomb.h" />
+    <ClInclude Include="Boss.h" />
+    <ClInclude Include="BossSkill.h" />
+    <ClInclude Include="BossStage.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="Chapter.h" />
+    <ClInclude Include="COunt.h" />
+    <ClInclude Include="define.h" />
+    <ClInclude Include="Device.h" />
+    <ClInclude Include="Door.h" />
+    <ClInclude Include="Ending.h" />
+    <ClInclude Include="enum.h" />
+    <ClInclude Include="FamBaby.h" />
+    <ClInclude Include="FamFly.h" />
+    <ClInclude Include="Familyer.h" />
+    <ClInclude Include="Fire.h" />
+    <ClInclude Include="Fly.h" />
+    <ClInclude Include="function.h" />
+    <ClInclude Include="Gaper.h" />
+    <ClInclude Include="Hart.h" />
+    <ClInclude Include="Hopper.h" />
+    <ClInclude Include="Include.h" />
+    <ClInclude Include="Isaac.h" />
+    <ClInclude Include="IsaacProject.h" />
+    <ClInclude Include="Item.h" />
+    <ClInclude Include="KeyMgr.h" />
+    <ClInclude Include="Logo.h" />
+    <ClInclude Include="MainGame.h" />
+    <ClInclude Include="Meat.h" />
+    <ClInclude Include="MiniBoss.h" />
+    <ClInclude Include="MiniBoss2.h" />
+    <ClInclude Include="MiniBoss4.h" />
+    <ClInclude Include="MiniMap.h" />
+    <ClInclude Include="MonBullet.h" />
+    <ClInclude Include="Monster.h" />
+    <ClInclude Include="Mulgun.h" />
+    <ClInclude Include="MyMenu.h" />
+    <ClInclude Include="None.h" />
+    <ClInclude Include="Obj.h" />
+    <ClInclude Include="ObjFactory.h" />
+    <ClInclude Include="ObjMgr.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PlayerBig.h" />
+    <ClInclude Include="PlayerBullet.h" />
+    <ClInclude Include="PlayerKnife.h" />
+    <ClInclude Include="PlayerSnake.h" />
+    <ClInclude Include="Poop.h" />
+    <ClInclude Include="RenderMgr.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Road.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="SceneMgr.h" />
+    <ClInclude Include="SkillAll.h" />
+    <ClInclude Include="SkillLemon.h" />
+    <ClInclude Include="SkillMeteo.h" />
+    <ClInclude Include="Stage1.h" />
+    <ClInclude Include="Stage2.h" />
+    <ClInclude Include="Stage3.h" />
+    <ClInclude Include="Stage4.h" />
+    <ClInclude Include="Stage5.h" />
+    <ClInclude Include="Stage6.h" />
+    <ClInclude Include="Stage7.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Stone.h" />
+    <ClInclude Include="struct.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="UI.h" />
+    <ClInclude Include="value.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="IsaacProject.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="IsaacProject.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

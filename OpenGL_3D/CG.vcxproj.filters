@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\01. Object">
+      <UniqueIdentifier>{00fff61b-1397-4dca-93b8-9ca41b594a31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\00. MainFrame">
+      <UniqueIdentifier>{775950bc-7906-4508-a449-3eae33c0338b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. Camera">
+      <UniqueIdentifier>{633464c4-d879-49e5-af3b-abfd16d2ed67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\99. Manager">
+      <UniqueIdentifier>{81eab734-540c-403f-b855-7a5e95fe85d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\99. Manager\1. Input">
+      <UniqueIdentifier>{458608c6-ae12-4ae0-a6f3-c463d84efc4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Temp">
+      <UniqueIdentifier>{be55d70a-2a82-4c60-b749-54246589a9a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\0.Tree">
+      <UniqueIdentifier>{06a21b9a-935b-4fef-bd2a-cf61bd4e87f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\1.Rail">
+      <UniqueIdentifier>{a7bcb84d-3ef6-4448-96dc-d9cc8f2df64a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\1.Rail\CRail">
+      <UniqueIdentifier>{449c4350-31d0-432d-82b7-5f6ed928a0df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\2, Coster">
+      <UniqueIdentifier>{7012d5f9-2e2e-496c-a0b4-b07fccc40d89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\3. Bullet">
+      <UniqueIdentifier>{99cf83f3-a23f-4800-b0c3-ef7482c1858a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\4. Weather">
+      <UniqueIdentifier>{88bbdaee-f52d-48b1-9915-8e9670d28b76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\5, Ternel">
+      <UniqueIdentifier>{82698f44-f64b-4a02-a606-94c798835fb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\6. Skybox">
+      <UniqueIdentifier>{bf69b570-d1c1-4443-9541-ce995ef569d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\7. FireWork">
+      <UniqueIdentifier>{27990128-b2f0-4315-b292-8b200d49fdd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\7. FireWork\CMyParticle">
+      <UniqueIdentifier>{004d8b68-28e8-4483-bb87-3ac00ab547de}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrame.cpp">
+      <Filter>소스 파일\00. MainFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>소스 파일\01. Object</Filter>
+    </ClCompile>
+    <ClCompile Include="InputMgr.cpp">
+      <Filter>소스 파일\99. Manager\1. Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>소스 파일\03. Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTree.cpp">
+      <Filter>소스 파일\01. Object\0.Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="RailPoint.cpp">
+      <Filter>소스 파일\01. Object\1.Rail</Filter>
+    </ClCompile>
+    <ClCompile Include="Rail.cpp">
+      <Filter>소스 파일\01. Object\1.Rail\CRail</Filter>
+    </ClCompile>
+    <ClCompile Include="Coster.cpp">
+      <Filter>소스 파일\01. Object\2, Coster</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>소스 파일\01. Object\3. Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Weather.cpp">
+      <Filter>소스 파일\01. Object\4. Weather</Filter>
+    </ClCompile>
+    <ClCompile Include="Ternel.cpp">
+      <Filter>소스 파일\01. Object\5, Ternel</Filter>
+    </ClCompile>
+    <ClCompile Include="Skybox.cpp">
+      <Filter>소스 파일\01. Object\6. Skybox</Filter>
+    </ClCompile>
+    <ClCompile Include="FireWork.cpp">
+      <Filter>소스 파일\01. Object\7. FireWork</Filter>
+    </ClCompile>
+    <ClCompile Include="MyParticle.cpp">
+      <Filter>소스 파일\01. Object\7. FireWork\CMyParticle</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainFrame.h">
+      <Filter>소스 파일\00. MainFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="IncludeHeader.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MyStruct.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MyEnum.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>소스 파일\01. Object</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MyFunc.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="InputMgr.h">
+      <Filter>소스 파일\99. Manager\1. Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>소스 파일\03. Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTree.h">
+      <Filter>소스 파일\01. Object\0.Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="RailPoint.h">
+      <Filter>소스 파일\01. Object\1.Rail</Filter>
+    </ClInclude>
+    <ClInclude Include="Rail.h">
+      <Filter>소스 파일\01. Object\1.Rail\CRail</Filter>
+    </ClInclude>
+    <ClInclude Include="Coster.h">
+      <Filter>소스 파일\01. Object\2, Coster</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>소스 파일\01. Object\3. Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Weather.h">
+      <Filter>소스 파일\01. Object\4. Weather</Filter>
+    </ClInclude>
+    <ClInclude Include="Ternel.h">
+      <Filter>소스 파일\01. Object\5, Ternel</Filter>
+    </ClInclude>
+    <ClInclude Include="Skybox.h">
+      <Filter>소스 파일\01. Object\6. Skybox</Filter>
+    </ClInclude>
+    <ClInclude Include="FireWork.h">
+      <Filter>소스 파일\01. Object\7. FireWork</Filter>
+    </ClInclude>
+    <ClInclude Include="MyParticle.h">
+      <Filter>소스 파일\01. Object\7. FireWork\CMyParticle</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CG.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

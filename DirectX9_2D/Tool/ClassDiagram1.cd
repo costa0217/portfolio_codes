@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CMainFrame" Collapsed="true">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQACRAAAAAAAAIAiIAAiAAIoCEAAgAgQABQAABAAhA=</HashCode>
+      <FileName>MainFrm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CToolView" Collapsed="true">
+    <Position X="5.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABACABIABAAAAAmAJAgABAgBAAAAAAQAgJAAAYAQA=</HashCode>
+      <FileName>ToolView.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMiniView" Collapsed="true">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAiABAgAAAAAAAAAABQAAAAAAAIAA=</HashCode>
+      <FileName>MiniView.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMyFormView" Collapsed="true">
+    <Position X="10.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgBAAAABbgBAAAAAG1BAgAAAEBAAAgACEAAAAAAAAIA=</HashCode>
+      <FileName>MyFormView.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDevice" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAIkgAAACAAAQAABAgAAQoAAAECAFAACAA=</HashCode>
+      <FileName>Device.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTextureMgr" Collapsed="true">
+    <Position X="7" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAgCAAAQAABAAAAAAAAAACKhAAAAA=</HashCode>
+      <FileName>TextureMgr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTexture" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACEAAAAAAAAAAAAIAAAAAAAAAAAAAAAhAAAAA=</HashCode>
+      <FileName>Texture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSingleTexture" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAKAgAAAAAAAAACAAAAAAAAAAAAAAAAAhAAAAA=</HashCode>
+      <FileName>SingleTexture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMultiTexture" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAABAAAAAAAAAAAAhAJAAA=</HashCode>
+      <FileName>MultiTexture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CObj" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAQAAAAAAAAAAAAAAAAAAABAgABCAAAA=</HashCode>
+      <FileName>Obj.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBackGround" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAIAAAAQEAICAEAAAAAAAAAAAAABABABCAAAA=</HashCode>
+      <FileName>BackGround.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMapTool" Collapsed="true">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAARQAEEQAAAACAIAxDAAAgAIFAAgEQhEEAAEAkQAwE=</HashCode>
+      <FileName>MapTool.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CObjectTool" Collapsed="true">
+    <Position X="5.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABBAAIABAAAAAAAAQAAAAAAAAIA=</HashCode>
+      <FileName>ObjectTool.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUnitTool" Collapsed="true">
+    <Position X="7" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQKAAAAAQAAAAAAAAhBAAAAACBAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>UnitTool.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CItemTool" Collapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAUAAAIQAAAAAAAAhBAAAACABAAAAgAEIAAAAJAEAA=</HashCode>
+      <FileName>ItemTool.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFileInfo" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAIAAAAAAEAAAAAAAAAAAQAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>FileInfo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAboutDlg" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAABAAAAAAAAAAAAAAQQAAAAAAAAA=</HashCode>
+      <FileName>Tool.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CToolApp" Collapsed="true">
+    <Position X="8.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAQAAAAAAAQAAAAAQCQAARAAACAAA=</HashCode>
+      <FileName>Tool.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CToolDoc" Collapsed="true">
+    <Position X="10.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAiAAAgAAABCAgAAAAUAAAAAAAAAA=</HashCode>
+      <FileName>ToolDoc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>

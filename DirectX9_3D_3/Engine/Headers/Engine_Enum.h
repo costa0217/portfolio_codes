@@ -1,0 +1,26 @@
+
+/*!
+ * \file Engine_Enum.h
+ * \date 2015/07/06 12:23
+ *
+ * \author Administrator
+ * Contact: user@company.com
+ *
+ * \brief 
+ *
+ * TODO: long description
+ *
+ * \note
+*/
+
+namespace Engine
+{
+	enum RESOURCETYPE	{ RESOURCE_STATIC, RESOURCE_DYNAMIC, RESOURCE_END,};
+	enum TEXTURETYPE	{ TEXTURE_NORMAL, TEXTURE_CUBE, };
+	enum ANGLE {ANGLE_X, ANGLE_Y, ANGLE_Z, ANGLE_END};
+	enum COLOR {COLOR_RED, COLOR_GREEN, COLOR_BLUE, COLOR_END};
+	enum LAYERID {LAYER_GAMELOGIC, LAYER_CAMERA, LAYER_RAIN, LAYER_UI, LAYER_CHOICE, LAYER_PAUSE};
+	enum OBJ_NAME { OBJ_PLAYER, OBJ_RETONA, OBJ_DODGE, OBJ_BUNKER, OBJ_AIRGUN, OBJ_TANK, OBJ_END};
+
+	enum OBJ_STATE { STATE_LIVE, STATE_DIE, STATE_SPECIAL, };
+}

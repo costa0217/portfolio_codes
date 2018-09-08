@@ -1,0 +1,18 @@
+#pragma once
+
+// KeyMgr key °ª
+
+const DWORD				KEY_LBUTTON	 = 0X00000001;
+const DWORD				KEY_RBUTTON	 = 0X00000002;
+
+const DWORD				KEY_ENTER	 = 0X00000004;
+const DWORD				KEY_SPACE	 = 0X00000008;
+
+const DWORD				KEY_1		 = 0X00000010;
+const DWORD				KEY_2		 = 0X00000020;
+const DWORD				KEY_3		 = 0X00000040;
+const DWORD				KEY_4		 = 0X00000080;
+const DWORD				KEY_LEFT	 = 0X00000100;
+const DWORD				KEY_RIGHT	 = 0X00000200;
+const DWORD				KEY_UP		 = 0X00000400;
+const DWORD				KEY_DOWN	 = 0X00000800;

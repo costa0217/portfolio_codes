@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B5829DCC-E800-4030-BA11-CE8C6B1F0CD9}</ProjectGuid>
+    <RootNamespace>Client</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>14.0.24730.2</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\Bin\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\FMOD SoundSystem\FMOD Studio API Windows\api\lowlevel\inc;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;D:\0. JH%27s Folder\Study\portfolio\11.마영전\Project\Last_MabinogiHeroes\SDKs\Foundation\include;D:\0. JH%27s Folder\Study\portfolio\11.마영전\Project\Last_MabinogiHeroes\SDKs\Physics\include;D:\0. JH%27s Folder\Study\portfolio\11.마영전\Project\Last_MabinogiHeroes\SDKs\PhysXLoader\include;D:\0. JH%27s Folder\Study\portfolio\11.마영전\Project\Last_MabinogiHeroes\SDKs\NxCharacter\include;D:\0. JH%27s Folder\Study\portfolio\11.마영전\Project\Last_MabinogiHeroes\SDKs\Cooking\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\FMOD SoundSystem\FMOD Studio API Windows\api\lowlevel\lib;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;D:\0. JH%27s Folder\Study\portfolio\11.마영전\Project\Last_MabinogiHeroes\SDKs\lib\win32;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\Bin\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\FMOD SoundSystem\FMOD Studio API Windows\api\lowlevel\inc;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;D:\0. JH%27s Folder\Study\portfolio\11.마영전\Project\Last_MabinogiHeroes\SDKs\Foundation\include;D:\0. JH%27s Folder\Study\portfolio\11.마영전\Project\Last_MabinogiHeroes\SDKs\Physics\include;D:\0. JH%27s Folder\Study\portfolio\11.마영전\Project\Last_MabinogiHeroes\SDKs\PhysXLoader\include;D:\0. JH%27s Folder\Study\portfolio\11.마영전\Project\Last_MabinogiHeroes\SDKs\NxCharacter\include;D:\0. JH%27s Folder\Study\portfolio\11.마영전\Project\Last_MabinogiHeroes\SDKs\Cooking\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\FMOD SoundSystem\FMOD Studio API Windows\api\lowlevel\lib;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;D:\0. JH%27s Folder\Study\portfolio\11.마영전\Project\Last_MabinogiHeroes\SDKs\lib\win32;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../Headers/;../../Reference/Headers/;../../ThirdParty/Headers/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>d3dx9.lib;d3d9.lib;Utility.lib;System.lib;Resource.lib;PhysXLoader.lib;fmod_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../../Reference/Librarys/;../../ThirdParty/Librarys/;../../SDKs/;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <LargeAddressAware>true</LargeAddressAware>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>../Headers/;../../Reference/Headers/;../../ThirdParty/Headers/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>d3dx9.lib;d3d9.lib;Utility.lib;System.lib;Resource.lib;PhysXLoader.lib;fmod_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../../Reference/Librarys/;../../ThirdParty/Librarys/;../../SDKs/;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <LargeAddressAware>true</LargeAddressAware>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Codes\AroundLightning.cpp" />
+    <ClCompile Include="..\Codes\BloodJelly.cpp" />
+    <ClCompile Include="..\Codes\BloodLord.cpp" />
+    <ClCompile Include="..\Codes\BloodLordHP.cpp" />
+    <ClCompile Include="..\Codes\BLTrail.cpp" />
+    <ClCompile Include="..\Codes\BossFaceUI.cpp" />
+    <ClCompile Include="..\Codes\BreathEffect.cpp" />
+    <ClCompile Include="..\Codes\CollisionMgr.cpp" />
+    <ClCompile Include="..\Codes\ComboUI.cpp" />
+    <ClCompile Include="..\Codes\ControlPointMgr.cpp" />
+    <ClCompile Include="..\Codes\CullingMgr.cpp" />
+    <ClCompile Include="..\Codes\Cursor.cpp" />
+    <ClCompile Include="..\Codes\DamageFont.cpp" />
+    <ClCompile Include="..\Codes\DyeCamera.cpp" />
+    <ClCompile Include="..\Codes\DyeIcon.cpp" />
+    <ClCompile Include="..\Codes\DyeIconColor.cpp" />
+    <ClCompile Include="..\Codes\DyeScene.cpp" />
+    <ClCompile Include="..\Codes\DyeSkyBox.cpp" />
+    <ClCompile Include="..\Codes\DynamicCamera.cpp" />
+    <ClCompile Include="..\Codes\Effect.cpp" />
+    <ClCompile Include="..\Codes\EffectMgr.cpp" />
+    <ClCompile Include="..\Codes\EquipmentUI.cpp" />
+    <ClCompile Include="..\Codes\FadeInOut.cpp" />
+    <ClCompile Include="..\Codes\FireBall.cpp" />
+    <ClCompile Include="..\Codes\ForeHandLightning.cpp" />
+    <ClCompile Include="..\Codes\Glitter.cpp" />
+    <ClCompile Include="..\Codes\GlitterHP.cpp" />
+    <ClCompile Include="..\Codes\LHLightning.cpp" />
+    <ClCompile Include="..\Codes\Loading.cpp" />
+    <ClCompile Include="..\Codes\LogoBack.cpp" />
+    <ClCompile Include="..\Codes\LogoScene.cpp" />
+    <ClCompile Include="..\Codes\MainApp.cpp" />
+    <ClCompile Include="..\Codes\MathMgr.cpp" />
+    <ClCompile Include="..\Codes\MCTrail.cpp" />
+    <ClCompile Include="..\Codes\MeteoEffect.cpp" />
+    <ClCompile Include="..\Codes\MiddleScene.cpp" />
+    <ClCompile Include="..\Codes\Monster.cpp" />
+    <ClCompile Include="..\Codes\Moonchopper.cpp" />
+    <ClCompile Include="..\Codes\MoonchopperHP.cpp" />
+    <ClCompile Include="..\Codes\MyEffect.cpp" />
+    <ClCompile Include="..\Codes\Pierceaura.cpp" />
+    <ClCompile Include="..\Codes\Player.cpp" />
+    <ClCompile Include="..\Codes\PlayerBeShotUI.cpp" />
+    <ClCompile Include="..\Codes\PlayerEyeTrail.cpp" />
+    <ClCompile Include="..\Codes\PlayerHeartBeatUI.cpp" />
+    <ClCompile Include="..\Codes\PlayerSkill.cpp" />
+    <ClCompile Include="..\Codes\PlayerState.cpp" />
+    <ClCompile Include="..\Codes\PlayerSwordTrail.cpp" />
+    <ClCompile Include="..\Codes\RHLightning.cpp" />
+    <ClCompile Include="..\Codes\RoyalGuard.cpp" />
+    <ClCompile Include="..\Codes\SelectCloth.cpp" />
+    <ClCompile Include="..\Codes\SelectDye.cpp" />
+    <ClCompile Include="..\Codes\SelectPart.cpp" />
+    <ClCompile Include="..\Codes\SkillFailFont.cpp" />
+    <ClCompile Include="..\Codes\SkyBox.cpp" />
+    <ClCompile Include="..\Codes\SoundMgr.cpp" />
+    <ClCompile Include="..\Codes\Spin.cpp" />
+    <ClCompile Include="..\Codes\StageScene.cpp" />
+    <ClCompile Include="..\Codes\StaticObject.cpp" />
+    <ClCompile Include="..\Codes\StaticObject_Default.cpp" />
+    <ClCompile Include="..\Codes\StaticObject_Destroy.cpp" />
+    <ClCompile Include="..\Codes\Sword.cpp" />
+    <ClCompile Include="..\Codes\Terrain.cpp" />
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Codes\AroundLightning.h" />
+    <ClInclude Include="..\Codes\BloodJelly.h" />
+    <ClInclude Include="..\Codes\BloodLord.h" />
+    <ClInclude Include="..\Codes\BloodLordHP.h" />
+    <ClInclude Include="..\Codes\BLTrail.h" />
+    <ClInclude Include="..\Codes\BossFaceUI.h" />
+    <ClInclude Include="..\Codes\BreathEffect.h" />
+    <ClInclude Include="..\Codes\CollisionMgr.h" />
+    <ClInclude Include="..\Codes\ComboUI.h" />
+    <ClInclude Include="..\Codes\ControlPointMgr.h" />
+    <ClInclude Include="..\Codes\CullingMgr.h" />
+    <ClInclude Include="..\Codes\Cursor.h" />
+    <ClInclude Include="..\Codes\DamageFont.h" />
+    <ClInclude Include="..\Codes\DyeCamera.h" />
+    <ClInclude Include="..\Codes\DyeIcon.h" />
+    <ClInclude Include="..\Codes\DyeIconColor.h" />
+    <ClInclude Include="..\Codes\DyeScene.h" />
+    <ClInclude Include="..\Codes\DyeSkyBox.h" />
+    <ClInclude Include="..\Codes\DynamicCamera.h" />
+    <ClInclude Include="..\Codes\Effect.h" />
+    <ClInclude Include="..\Codes\EffectMgr.h" />
+    <ClInclude Include="..\Codes\EquipmentUI.h" />
+    <ClInclude Include="..\Codes\FadeInOut.h" />
+    <ClInclude Include="..\Codes\FireBall.h" />
+    <ClInclude Include="..\Codes\ForeHandLightning.h" />
+    <ClInclude Include="..\Codes\Glitter.h" />
+    <ClInclude Include="..\Codes\GlitterHP.h" />
+    <ClInclude Include="..\Codes\LHLightning.h" />
+    <ClInclude Include="..\Codes\Loading.h" />
+    <ClInclude Include="..\Codes\LogoBack.h" />
+    <ClInclude Include="..\Codes\LogoScene.h" />
+    <ClInclude Include="..\Codes\MainApp.h" />
+    <ClInclude Include="..\Codes\MathMgr.h" />
+    <ClInclude Include="..\Codes\MCTrail.h" />
+    <ClInclude Include="..\Codes\MeteoEffect.h" />
+    <ClInclude Include="..\Codes\MiddleScene.h" />
+    <ClInclude Include="..\Codes\Monster.h" />
+    <ClInclude Include="..\Codes\Moonchopper.h" />
+    <ClInclude Include="..\Codes\MoonchopperHP.h" />
+    <ClInclude Include="..\Codes\MyEffect.h" />
+    <ClInclude Include="..\Codes\Pierceaura.h" />
+    <ClInclude Include="..\Codes\Player.h" />
+    <ClInclude Include="..\Codes\PlayerBeShotUI.h" />
+    <ClInclude Include="..\Codes\PlayerEyeTrail.h" />
+    <ClInclude Include="..\Codes\PlayerHeartBeatUI.h" />
+    <ClInclude Include="..\Codes\PlayerSkill.h" />
+    <ClInclude Include="..\Codes\PlayerState.h" />
+    <ClInclude Include="..\Codes\PlayerSwordTrail.h" />
+    <ClInclude Include="..\Codes\RHLightning.h" />
+    <CustomBuild Include="..\Codes\RoyalGuard.h" />
+    <ClInclude Include="..\Codes\SceneSelector.h" />
+    <ClInclude Include="..\Codes\SelectCloth.h" />
+    <ClInclude Include="..\Codes\SelectDye.h" />
+    <ClInclude Include="..\Codes\SelectPart.h" />
+    <ClInclude Include="..\Codes\SkillFailFont.h" />
+    <ClInclude Include="..\Codes\SkyBox.h" />
+    <ClInclude Include="..\Codes\SoundMgr.h" />
+    <ClInclude Include="..\Codes\Spin.h" />
+    <ClInclude Include="..\Codes\StageScene.h" />
+    <ClInclude Include="..\Codes\StaticObject.h" />
+    <ClInclude Include="..\Codes\StaticObject_Default.h" />
+    <ClInclude Include="..\Codes\StaticObject_Destroy.h" />
+    <ClInclude Include="..\Codes\Struct.h" />
+    <ClInclude Include="..\Codes\Sword.h" />
+    <ClInclude Include="..\Codes\Terrain.h" />
+    <ClInclude Include="..\Headers\Contant.h" />
+    <ClInclude Include="..\Headers\Defines.h" />
+    <ClInclude Include="..\Headers\Enum.h" />
+    <ClInclude Include="..\Headers\Function.h" />
+    <ClInclude Include="..\Headers\Functor.h" />
+    <ClInclude Include="..\Headers\Macro.h" />
+    <ClInclude Include="..\Headers\Typedef.h" />
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
